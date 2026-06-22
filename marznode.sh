@@ -191,7 +191,7 @@ print_success "Success! xray installed"
 
 # Building sing-box with v2ray_api support
 cd /opt/marznode/$node_directory/sing-box
-wget -O config.json "https://raw.githubusercontent.com/mohamadm0meni/ez-node/refs/heads/main/etc/sing-box.json"
+wget -O config.json "https://raw.githubusercontent.com/mojiwz/ez-node/refs/heads/main/etc/sing-box.json"
 
 print_info "Building sing-box core version $sversion with v2ray_api support..."
 
