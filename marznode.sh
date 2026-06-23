@@ -104,7 +104,7 @@ case "$(uname -m)" in
 esac
 
 cd /tmp
-wget -q "https://go.dev/dl/go${GO_VERSION}.linux-${GO_ARCH}.tar.gz"
+wget -4 -q "https://go.dev/dl/go${GO_VERSION}.linux-${GO_ARCH}.tar.gz"
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go${GO_VERSION}.linux-${GO_ARCH}.tar.gz"
 rm "go${GO_VERSION}.linux-${GO_ARCH}.tar.gz"
